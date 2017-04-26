@@ -1,0 +1,32 @@
+.App {
+  background: #70e1f5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #70e1f5, #ffd194); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #70e1f5, #ffd194);
+  min-height: 100vh;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.App-header {
+  background-color: #001e22;
+  height: 80px;
+  padding: 10px;
+  color: #dcdedd;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
